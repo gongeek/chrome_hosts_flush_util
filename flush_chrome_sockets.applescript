@@ -22,7 +22,7 @@ tell application "Google Chrome"
 		
 		--Chrome has to spend some time to execute init javascript,otherwise the javascript statements in the below execute commond won't work.
 		--How long you should delay depends on the performance of your mac.
-		delay 0.1
+		delay 0.3
 		
 		--flush Chrome sockets
 		--you can find below javascript statements in Chrome's net-internal index.js on line 9860 and 9861
@@ -39,7 +39,7 @@ tell application "Google Chrome"
 		
 		--Chrome has to spend some time to execute init javascript,otherwise the javascript statements in the below execute commond won't work.
 		--How long you should delay depends on the performance of your mac.
-		delay 0.1
+		delay 0.3
 		
 		--flush Chrome sockets
 		--you can find below javascript statements in Chrome's net-internal index.js on line 9860 and 9861
