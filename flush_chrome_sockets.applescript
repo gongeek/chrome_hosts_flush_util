@@ -26,7 +26,7 @@ tell application "Google Chrome"
 		
 		--flush Chrome sockets
 		--you can find below javascript statements in Chrome's net-internal index.js on line 9860 and 9861
-		execute theTab javascript "g_browser.sendFlushSocketPools();g_browser.checkForUpdatedInfo(false);"
+		execute theTab javascript "document.getElementById('sockets-view-flush-button').click()"
 		
 		--close Chrome sockets page
 		close theTab
